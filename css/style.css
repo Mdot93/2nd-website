@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+
 *{
 box-sizing: border-box;
 padding: 0;
@@ -8,6 +11,25 @@ margin: 0;
 
 body {
 	background-color:#460018;
+	font-family: 'Calligraffitti', cursive;
+}
+
+p:hover span{
+background-color: blue;
+
+
+}
+
+
+
+
+
+
+h2{
+
+background-color: red;
+margin:10px 0;
+padding: 10px;
 }
 
 nav ul {
@@ -52,3 +74,20 @@ margin: 20px;
 
 
 }
+
+
+
+
+
+
+
+/* these are utilties class
+====================================*/
+
+
+.center-text{
+text-align: center;
+
+}
+
+
