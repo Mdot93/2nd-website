@@ -92,3 +92,32 @@ text-align: center;
 }
 
 
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  background: red;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-1-2 {
+  background:blue;
+  float: left;
+  margin:1%;
+  width: 90%;
+  padding: 10px;
+}
+.col-1-4 {
+  width: 25%;
+  float: left;
+}
+
+
